@@ -1,0 +1,15 @@
+export default {
+  mainBg: 'hsl(268, 75%, 9%)',
+  keypadBg: 'hsl(268, 71%, 12%)',
+  screenBg: 'hsl(268, 71%, 12%)',
+  wordKeyBg: 'hsl(281, 89%, 26%)',
+  wordKeyShadow: 'hsl(285, 91%, 52%)',
+  equalBg: 'hsl(176, 100%, 44%)',
+  equalShadow: 'hsl(177, 92%, 70%)',
+  keyBg: 'hsl(268, 47%, 21%)',
+  keyShadow: 'hsl(290, 70%, 36%)',
+  textColor: 'hsl(52, 100%, 62%)',
+  headerColor: 'hsl(52, 100%, 62%)',
+  textContrast: 'hsl(0, 100%, 100%)',
+  screenColor: 'hsl(52, 100%, 62%)',
+}

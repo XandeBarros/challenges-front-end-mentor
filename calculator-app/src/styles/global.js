@@ -7,9 +7,10 @@ export default createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Spartan', sans-serif;
   }
+
   body {
-    background: hsl(222, 26%, 31%);
-    color: white;
+    background: ${({ theme }) => theme.mainBg};
+    color: ${({ theme }) => theme.headerColor};
   }
 
   button {
