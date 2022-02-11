@@ -10,7 +10,7 @@ export default function Card({ type, color, objInfos }) {
         <h2>{objInfos.title}</h2>
         <div>
           <p>{objInfos.current}hrs</p>
-          <small>Last {objInfos.timeframe === 'Daily' ? 'Day' : timeframe === 'Weekly' ? 'Week' : 'Month'} - {objInfos.previous}hrs</small>
+          <small>Last {objInfos.timeframe === 'Daily' ? 'Day' : objInfos.timeframe === 'Weekly' ? 'Week' : 'Month'} - {objInfos.previous}hrs</small>
         </div>
       </Infos>
     </Container> 
