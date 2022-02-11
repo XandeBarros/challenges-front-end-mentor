@@ -9,4 +9,8 @@ export const MainContent = styled.div`
   width: 30rem;
 
   margin: 6rem auto;
+
+  @media(max-width: 400px) {
+    width: 20rem;
+  }
 `;

@@ -6,5 +6,16 @@ export const Container = styled.div`
 
   border-radius: .5rem;
 
-  background: hsl(224, 36%, 15%);
+  background: ${({ theme }) => theme.screenBg};
+
+  padding: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  p {
+    font-size: 48px;
+    color: ${({ theme }) => theme.screenColor};
+  }
 `;
