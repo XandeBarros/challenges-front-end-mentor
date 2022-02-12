@@ -9,7 +9,7 @@ export const Content = styled.h1`
   width: calc(5*1.5rem);
 
   margin: 0 auto;
-  margin-top: 8rem;
+  margin-top: 5rem;
 
   @media(max-width: 400px) {
     margin-top: 4rem;
