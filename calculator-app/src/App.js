@@ -40,7 +40,7 @@ function App() {
 
   function handleEqual() {
     try {
-      let newScreenValue = String(eval(screen.replace('×', '*')).toFixed(2));
+      let newScreenValue = String(eval(screen.replaceAll('×', '*')).toFixed(2));
       if (newScreenValue[newScreenValue.length - 1] === '0' && newScreenValue[newScreenValue.length - 2] === '0') newScreenValue = newScreenValue.slice(0, -3);
       if (newScreenValue.length > 13 && !newScreenValue.includes('.')) return setScreen('Error');
       setScreen(newScreenValue);
