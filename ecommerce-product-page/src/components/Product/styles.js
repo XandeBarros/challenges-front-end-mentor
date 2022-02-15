@@ -113,7 +113,7 @@ export const SLightbox = styled.div`
 
 export const SLightboxPhotos = styled.div`
   width: 30rem;
-  height: 50rem;
+  height: 45rem;
 
   display: flex;
   flex-direction: column;
